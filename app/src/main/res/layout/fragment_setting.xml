@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment"
+    android:background="#EFEFEF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="serif-monospace"
+                    android:text="My Account"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:onClick="myprofile"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/botton_corner"
+
+            >
+
+            <ImageView
+                android:id="@+id/account_profile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#F6F7FB"
+                android:padding="3dp"
+                android:src="@drawable/ic_baseline_account_circle_24" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="My Profile"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="12dp"
+               android:textSize="19sp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_toRightOf="@+id/account_profile"
+               />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/botton_corner"
+
+            >
+            <ImageView
+                android:id="@+id/legal_icon"
+                android:layout_width="30dp"
+                android:padding="3dp"
+                android:layout_height="30dp"
+                android:background="#F6F7FB"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Legal"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/legal_icon"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/botton_corner"
+
+            >
+            <ImageView
+                android:id="@+id/setting_icon"
+                android:layout_width="30dp"
+                android:padding="3dp"
+                android:layout_height="30dp"
+                android:background="#F6F7FB"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/setting_icon"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/botton_corner"
+
+            >
+            <ImageView
+                android:id="@+id/Logout_icon"
+                android:layout_width="30dp"
+                android:padding="3dp"
+                android:layout_height="30dp"
+                android:background="#F6F7FB"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/Logout_icon"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/actor</item>
+        <item>@font/alex_brush</item>
+        <item>@font/aubrey</item>
+        <item>@font/bangers</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/bungee</item>
+        <item>@font/grenze_thin</item>
+    </array>
+</resources>

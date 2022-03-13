@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_corner"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eskarbon shopping Mall"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/ic_baseline_location_on_24" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 Street Mingw, saharel"
+                    android:textColor="#777"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/author_katz"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:layout_marginLeft="6dp"
+            android:paddingVertical="12dp"
+
+            android:background="@drawable/icon_corner"
+            >
+
+            <ImageView
+                android:id="@+id/img"
+
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_local_phone_24">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img"
+                android:layout_marginLeft="3dp"
+
+                android:text="Call"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:paddingVertical="12dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/icon_corner"
+            >
+
+            <ImageView
+                android:id="@+id/img1"
+
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_directions_24">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/img1"
+                android:text="Description"
+                android:layout_centerVertical="true"
+
+                android:textSize="12sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:paddingVertical="12dp"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/icon_corner"
+            >
+
+            <ImageView
+                android:id="@+id/img2"
+
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_share_24">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/img2"
+                android:text="Description"
+                android:layout_centerVertical="true"
+
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="13dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lorem junior jukio hf elele the pharnuel anb jef nnd ksdfl nklms fjknfklsdahfijk nmklv hjokvlahn vklmvmklcv vnkldv bklcmxbvmbv klcx,mvb klxcl;n vckcxmvblkmcvbkvlxbvxckmvbcxbv mncvbcxvmkncbvmcvbcxvmncxbvcxvnb cvm,cxkjvlhfdvfvjkvkjvlcb vncxbvnmcxvb,cxvdfkvlvcxjkvbmcxvb bcxkmvnbcxkvb"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking Time"
+            android:paddingVertical="4dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:elevation="4dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="4dp"
+                android:background="@drawable/white_radius"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Hour "
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$5"
+
+                    android:textColor="#777"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="4dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="4dp"
+                android:background="@drawable/white_radius"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Hour "
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$5"
+                    android:textColor="#777"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="4dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="4dp"
+                android:background="@drawable/white_radius"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Hour "
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$5"
+                    android:textColor="#777"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/gotosecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:padding="8dp"
+        android:background="@color/purple_200"
+        android:text="Book for $7"
+        />
+</LinearLayout>
